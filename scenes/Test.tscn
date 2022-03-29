@@ -1,0 +1,331 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjmef3skjxbyi"]
+
+[ext_resource type="Script" path="res://addons/tbloader/nodes/tbloader_ext.gd" id="1_0b2p1"]
+
+[node name="TBLoaderExtended" type="TBLoader"]
+map_resource = "res://maps/test.map"
+entity_common = false
+script = ExtResource( "1_0b2p1" )
+game_config = "C:/Development/Trenchbroom/Trenchbroom_2021-1/games/Custodian/GameConfig.cfg"
+entity_list = {
+"light": {
+"distance_fade_enabled": {
+"Trenchbroom": {
+"Name": "distance_fade_enabled",
+"Type": "(string)",
+"Value": "\"false\""
+},
+"Value": false
+},
+"editor_only": {
+"Trenchbroom": {
+"Name": "editor_only",
+"Type": "(string)",
+"Value": "\"false\""
+},
+"Value": false
+},
+"layers": {
+"Trenchbroom": {
+"Name": "layers",
+"Type": "(integer)",
+"Value": "1"
+},
+"Value": 1
+},
+"light_bake_mode": {
+"Trenchbroom": {
+"Name": "light_bake_mode",
+"Type": "(integer)",
+"Value": "2"
+},
+"Value": 2
+},
+"light_color": {
+"Trenchbroom": {
+"Name": "light_color",
+"Type": "(color)",
+"Value": "\"1 1 1\""
+},
+"Value": Color(1, 1, 1, 1)
+},
+"light_cull_mask": {
+"Trenchbroom": {
+"Name": "light_cull_mask",
+"Type": "(integer)",
+"Value": "4294967295"
+},
+"Value": 4294967295
+},
+"light_energy": {
+"Trenchbroom": {
+"Name": "light_energy",
+"Type": "(float)",
+"Value": "1"
+},
+"Value": 1.0
+},
+"light_indirect_energy": {
+"Trenchbroom": {
+"Name": "light_indirect_energy",
+"Type": "(float)",
+"Value": "1"
+},
+"Value": 1.0
+},
+"light_negative": {
+"Trenchbroom": {
+"Name": "light_negative",
+"Type": "(string)",
+"Value": "\"false\""
+},
+"Value": false
+},
+"light_projector": {
+"Trenchbroom": {
+"Name": "light_projector",
+"Type": "(string)",
+"Value": "\"[Object:null]\""
+},
+"Value": null
+},
+"light_size": {
+"Trenchbroom": {
+"Name": "light_size",
+"Type": "(float)",
+"Value": "0"
+},
+"Value": 0.0
+},
+"light_specular": {
+"Trenchbroom": {
+"Name": "light_specular",
+"Type": "(float)",
+"Value": "0.5"
+},
+"Value": 0.5
+},
+"omni_attenuation": {
+"Trenchbroom": {
+"Name": "omni_attenuation",
+"Type": "(float)",
+"Value": "1"
+},
+"Value": 1.0
+},
+"omni_range": {
+"Trenchbroom": {
+"Name": "omni_range",
+"Type": "(float)",
+"Value": "5"
+},
+"Value": 5.0
+},
+"omni_shadow_mode": {
+"Trenchbroom": {
+"Name": "omni_shadow_mode",
+"Type": "(integer)",
+"Value": "1"
+},
+"Value": 1
+},
+"script": {
+"Trenchbroom": {
+"Name": "script",
+"Type": "(string)",
+"Value": "\"null\""
+},
+"Value": null
+},
+"shadow_enabled": {
+"Trenchbroom": {
+"Name": "shadow_enabled",
+"Type": "(string)",
+"Value": "\"false\""
+},
+"Value": false
+},
+"visible": {
+"Trenchbroom": {
+"Name": "visible",
+"Type": "(string)",
+"Value": "\"true\""
+},
+"Value": true
+}
+},
+"random_node3d": {
+"script": {
+"Trenchbroom": {
+"Name": "script",
+"Type": "(string)",
+"Value": "\"null\""
+},
+"Value": null
+},
+"visible": {
+"Trenchbroom": {
+"Name": "visible",
+"Type": "(string)",
+"Value": "\"true\""
+},
+"Value": true
+}
+},
+"spotlight": {
+"distance_fade_enabled": {
+"Trenchbroom": {
+"Name": "distance_fade_enabled",
+"Type": "(string)",
+"Value": "\"false\""
+},
+"Value": false
+},
+"editor_only": {
+"Trenchbroom": {
+"Name": "editor_only",
+"Type": "(string)",
+"Value": "\"false\""
+},
+"Value": false
+},
+"layers": {
+"Trenchbroom": {
+"Name": "layers",
+"Type": "(integer)",
+"Value": "1"
+},
+"Value": 1
+},
+"light_bake_mode": {
+"Trenchbroom": {
+"Name": "light_bake_mode",
+"Type": "(integer)",
+"Value": "2"
+},
+"Value": 2
+},
+"light_color": {
+"Trenchbroom": {
+"Name": "light_color",
+"Type": "(color)",
+"Value": "\"1 1 1\""
+},
+"Value": Color(1, 1, 1, 1)
+},
+"light_cull_mask": {
+"Trenchbroom": {
+"Name": "light_cull_mask",
+"Type": "(integer)",
+"Value": "4294967295"
+},
+"Value": 4294967295
+},
+"light_energy": {
+"Trenchbroom": {
+"Name": "light_energy",
+"Type": "(float)",
+"Value": "1"
+},
+"Value": 1.0
+},
+"light_indirect_energy": {
+"Trenchbroom": {
+"Name": "light_indirect_energy",
+"Type": "(float)",
+"Value": "1"
+},
+"Value": 1.0
+},
+"light_negative": {
+"Trenchbroom": {
+"Name": "light_negative",
+"Type": "(string)",
+"Value": "\"false\""
+},
+"Value": false
+},
+"light_projector": {
+"Trenchbroom": {
+"Name": "light_projector",
+"Type": "(string)",
+"Value": "\"[Object:null]\""
+},
+"Value": null
+},
+"light_size": {
+"Trenchbroom": {
+"Name": "light_size",
+"Type": "(float)",
+"Value": "0"
+},
+"Value": 0.0
+},
+"light_specular": {
+"Trenchbroom": {
+"Name": "light_specular",
+"Type": "(float)",
+"Value": "0.5"
+},
+"Value": 0.5
+},
+"script": {
+"Trenchbroom": {
+"Name": "script",
+"Type": "(string)",
+"Value": "\"null\""
+},
+"Value": null
+},
+"shadow_enabled": {
+"Trenchbroom": {
+"Name": "shadow_enabled",
+"Type": "(string)",
+"Value": "\"false\""
+},
+"Value": false
+},
+"spot_angle": {
+"Trenchbroom": {
+"Name": "spot_angle",
+"Type": "(float)",
+"Value": "45"
+},
+"Value": 45.0
+},
+"spot_angle_attenuation": {
+"Trenchbroom": {
+"Name": "spot_angle_attenuation",
+"Type": "(float)",
+"Value": "1"
+},
+"Value": 1.0
+},
+"spot_attenuation": {
+"Trenchbroom": {
+"Name": "spot_attenuation",
+"Type": "(float)",
+"Value": "1"
+},
+"Value": 1.0
+},
+"spot_range": {
+"Trenchbroom": {
+"Name": "spot_range",
+"Type": "(float)",
+"Value": "5"
+},
+"Value": 5.0
+},
+"visible": {
+"Trenchbroom": {
+"Name": "visible",
+"Type": "(string)",
+"Value": "\"true\""
+},
+"Value": true
+}
+}
+}
+update_entity_files = false
+property_ignore_list = ["process_mode", "process_priority", "editor_description", "rotation_edit_mode", "rotation_order", "visibility_parent", "top_level"]
